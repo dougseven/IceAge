@@ -1,0 +1,83 @@
+@media screen and (orientation: portrait)
+{
+	.main-container
+	{
+		border-style: solid;
+		border-color: yellow;
+		width: 90%;
+	}
+    
+	/* ================= Home Page Feed Styles ========================*/
+	.logo
+	{
+		border: 0px solid red;
+		margin-bottom: 6pt;
+		height: 40px;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+        background-position: left center;
+    }
+    
+	.headline
+	{
+		margin-top: 12pt;
+		font-size: 3em;
+	}
+
+	.main-text
+	{
+		text-align: center;
+		margin-top: 80pt;
+		font-size: 1.1em;
+		text-shadow: 1px 1px 7px #000;
+	}
+
+	.km-content.km-scroll-wrapper
+	{
+		background-size: auto 100%;
+	}
+}
+
+@media screen and (orientation: landscape)
+{
+	.km-content.km-scroll-wrapper
+	{
+		background-size: 100% auto;
+	}
+    
+	.main-container
+	{
+		border-style: dashed;
+		border-color: yellow;
+		width: 94%;
+	}
+ 
+	/* ================= Home Page Feed Styles ========================*/
+	.logo
+	{
+		border: 0px solid red;
+		margin-bottom: 6pt;
+		height: 40px;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+        background-position: left center;
+	}
+
+	.headline
+	{
+		margin-top: 12pt;
+		font-size: 2.3em;
+	}
+
+	.main-text
+	{
+        padding-left: 24pt;
+        padding-right: 24pt;
+		text-align: center;
+		margin-top: 64pt;
+		font-size: 1em;
+		text-shadow: 1px 1px 2px #000;
+	}
+}

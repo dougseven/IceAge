@@ -1,0 +1,122 @@
+/* ================= Twitter Feed Styles ========================*/
+.twitterText
+{
+	font-size: 1em;
+}
+
+.twitterAvatar
+{
+	width: 64px;
+	height: 64px;
+}
+
+/* ================= Info Styles ========================*/
+.heading
+{
+	margin-top: 24pt;
+	font-size: 2em;
+}
+
+#device-info-container
+{
+	font-size: 1.5em;
+	width: 96%;
+	padding: 12pt;
+	border-radius: 6px;
+}
+
+@media screen and (orientation: portrait)
+{
+	.main-container
+	{
+		border-style: solid;
+		border-color: green;
+		width: 94%;
+	}
+    
+	/* ================= Home Page Feed Styles ========================*/
+	.logo
+	{
+		border: 0px solid red;
+		margin-bottom: 6pt;
+		height: 110px;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left center;
+	}
+    
+	.headline
+	{
+		width: 80%;
+		margin-top: 120pt;
+		font-size: 7em;
+	}
+
+	.main-text
+	{
+		padding-left: 12px;
+		padding-right: 12px;
+		text-align: center;
+		margin-top: 300pt;
+		font-size: 1.8em;
+		text-shadow: 1px 1px 10px #000;
+	}
+
+	.km-content.km-scroll-wrapper
+	{
+		background-size: auto 100%;
+	}
+}
+
+@media screen and (orientation: landscape)
+{
+	.km-content.km-scroll-wrapper
+	{
+		background-size: 100% auto;
+	}
+    
+	.main-container
+	{
+		border-style: dashed;
+		border-color: green;
+		width: 96%;
+	}
+ 
+	/* ================= Home Page Feed Styles ========================*/
+	.logo
+	{
+		border: 0px solid red;
+		margin-bottom: 6pt;
+		height: 120px;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: left center;
+	}
+
+	.headline
+	{
+		font-family: Corbel, Helvetica Neue, Helvetica, sans-serif;
+		margin-top: 72pt;
+		font-size: 6em;
+		text-shadow: 0px 0px 10pt #fff;
+	}
+
+	.main-text
+	{
+		padding-left: 72px;
+		padding-right: 72px;
+		text-align: center;
+		margin-top: 180pt;
+		font-size: 2.3em;
+		text-shadow: 1px 1px 10px #000;
+	}
+    
+	/* ================= Info Styles ========================*/
+	#device-info-container
+	{
+		width: 98%;
+		font-size: 1.5em;
+	}
+}

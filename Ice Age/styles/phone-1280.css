@@ -1,0 +1,90 @@
+@media screen and (orientation: portrait)
+{
+	.main-container
+	{
+		border-style: solid;
+		border-color: green;
+		width: 90%;
+	}
+
+	/* ================= Home Page Feed Styles ========================*/
+	.logo
+	{
+		border: 0px solid red;
+		margin-bottom: 6pt;
+		height: 46px;
+		width: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+        background-position: left center;
+	}
+    
+	.headline
+	{
+		margin-top: 36pt;
+		font-size: 3.4em;
+	}
+
+	.main-text
+	{
+		text-align: center;
+		margin-top: 120pt;
+		font-size: 1.2em;
+		text-shadow: 1px 1px 7px #000;
+	}
+
+	.km-content.km-scroll-wrapper
+	{
+		background-size: auto 100%;
+	}
+}
+
+@media screen and (orientation: landscape)
+{
+	.km-content.km-scroll-wrapper
+	{
+		background-size: 100% auto;
+	}
+    
+	.main-container
+	{
+		border-style: dashed;
+		border-color: green;
+		width: 94%;
+	}
+ 
+	/* ================= Home Page Feed Styles ========================*/
+	.logo
+	{
+		border: 0px solid red;
+		margin-bottom: 6pt;
+		height: 50px;
+		width: 200px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+
+	.headline
+	{
+		margin-top: 12pt;
+		font-size: 2.8em;
+	}
+
+	.main-text
+	{
+        padding-left: 24pt;
+        padding-right: 24pt;
+		text-align: center;
+		margin-top: 72pt;
+		font-size: 1.2em;
+		text-shadow: 1px 1px 2px #000;
+	}
+    
+	/* ================= Info Styles ========================*/
+	#device-info-container
+	{
+        font-size: 1.2em;
+		width: 94%;
+	}
+}
