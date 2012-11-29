@@ -1,3 +1,8 @@
+#style-info:before
+{
+    content: "Stylesheet: tablet-1024-hdpi.css";
+}
+
 /* ================= Twitter Feed Styles ========================*/
 .twitterText
 {

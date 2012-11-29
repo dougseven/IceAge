@@ -22,7 +22,7 @@ function twitterViewInit() {
 	var twitterDS = new kendo.data.DataSource({
 		transport: {
 			read: {
-				url: "http://search.twitter.com/search.json?q=telerik",
+				url: "http://search.twitter.com/search.json?q=icenium",
 				dataType: "jsonp"
 			}
 		},

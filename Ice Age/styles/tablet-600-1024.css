@@ -1,3 +1,8 @@
+#style-info:before
+{
+    content: "Stylesheet: tablet-600-1024.css";
+}
+
 /* ================= Twitter Feed Styles ========================*/
 .twitterText
 {

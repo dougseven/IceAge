@@ -9,6 +9,11 @@
 	src: url('../fonts/VERDANA.TTF') format('truetype');
 }
 
+#style-info:before
+{
+    content: "Stylesheet: main.css";    
+}
+
 .km-content.km-scroll-wrapper,
 .km-tablet .km-ios .km-content
 {
